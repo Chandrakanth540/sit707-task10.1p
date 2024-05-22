@@ -12,4 +12,12 @@ public class TaskInboxTest {
                                 "Chat: Hi there!, Sure, let me check.";
         assertEquals(expectedOutput, inbox.getTaskInbox(studentId));
     }
+
+    @Test
+    public void testGetTaskInboxNoTasks() {
+        TaskInbox inbox = new TaskInbox();
+        String studentId = "54321";
+        String expectedOutput = "No tasks found for the given student ID.";
+        assertEquals(expectedOutput, inbox.getTaskInbox(studentId));
+    }
 }
