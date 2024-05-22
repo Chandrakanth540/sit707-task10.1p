@@ -3,7 +3,7 @@ package sit707_tasks;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class DateUtilTest {
+public class MathUtilTest {
 
     @Test
     public void testStudentIdentity() {
