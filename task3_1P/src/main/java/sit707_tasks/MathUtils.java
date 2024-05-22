@@ -19,18 +19,5 @@ package sit707_week2;
 public class MathUtils {
 
 	 // Adds two integers and performs basic checks
-    public static Integer add(Integer a, Integer b) {
-        if (a == null || b == null) {
-            throw new IllegalArgumentException("Inputs cannot be null");
-        }
-        return a + b;
-    }
-
-    // Subtracts the second integer from the first and performs basic checks
-    public static Integer sub(Integer a, Integer b) {
-        if (a == null || b == null) {
-            throw new IllegalArgumentException("Inputs cannot be null");
-        }
-        return a - b;
-    }
+    
 }
